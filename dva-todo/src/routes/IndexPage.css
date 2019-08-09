@@ -1,0 +1,17 @@
+.layout {
+  margin: 3rem auto;
+  max-width: 500px;
+}
+.layout input[type='text'] {
+  width: 80%;
+  margin-right: 0.5rem;
+}
+.layout .list {
+  margin-top: 0.5rem;
+  background-color: #fff;
+}
+
+.layout .btnDelete {
+  position: absolute;
+  right: 20px;
+}
