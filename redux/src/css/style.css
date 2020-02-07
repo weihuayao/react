@@ -1,0 +1,76 @@
+#main-body .add-panel{
+	width: 100%;
+	background-color: rgb(177, 177, 243);
+	text-align: center;
+	cursor: pointer;
+}
+.btns button{
+	width: 120px;
+	height: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.btns button[name='save']{
+	margin-left: 30%;
+	background-color: steelblue;
+	color: white;
+}
+.btns button[name='cancel']{
+	margin-left: 10%;
+	background-color: white;
+	color: steelblue;
+}
+
+.item fieldset{
+	position: relative;
+	border: none;
+}
+.item legend{
+	display: none;
+}
+#main-body .item:first-child legend{
+	display: block;
+}
+.item fieldset div{
+	position: absolute;
+	left: 20%;
+
+}
+.item fieldset input:invalid{
+	border: 2px solid red
+}
+.item fieldset label{
+	position: absolute;
+	right: 82%;
+}
+.item fieldset span{
+	color: red;
+}
+.item input+label{
+	position: static;
+}
+.item br.end{
+	clear: both;
+}
+.item .delete-item{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+#main-body .item:first-child .delete-item{
+	display: none;
+}
+#alert-message{
+	position: absolute;
+	top: 5px;
+	right: -212px;
+	width: 200px;
+	display: none;
+	background-color: grey;
+	border: 1px solid grey;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 8px;
+	transition: all 1s;
+}

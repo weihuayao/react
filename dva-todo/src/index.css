@@ -1,0 +1,7 @@
+
+html, body, 
+:global(#root) {
+  height: 100%;
+  background-color: #F0F2F5;
+}
+

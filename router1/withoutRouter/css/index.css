@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#root{
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+#wrapper{
+  width: 100%;
+}
+.App{
+  text-align: center;
+  float: left;
+  flex: 1;
+  width: 18%;
+  min-width: 220px;
+  height: 800px;
+  border-right: 1px solid black;
+  background: #fafafa;
+}
+.App li{
+  padding:5px;
+  text-align: left ;
+  cursor: pointer; 
+}
+.App li a:hover{
+   color: #00ccff;
+}
+.App ol{
+  font-weight: 600;
+  color: #212121;
+}
+.App ul{
+  position: relative;
+  left: -28px;
+  font-size: 14px;
+  list-style: none;
+}
+.App ul>li{
+  color: #777777;
+  height: 20px;
+  width: 200px;
+  overflow: hidden;
+}
+.App ul>li:hover{
+  color: #00ccff;
+}
+.App a{
+  color: #333;
+  text-decoration: none;
+}
+#componnetbox{
+  flex: 2;
+  width: 75%;
+  float: left;
+  height: 200px;
+}
+#componnetbox h3{
+  margin-left: 230px;
+  margin-top: 80px;
+  font-size: 16px;
+  font-weight: normal;
+}
